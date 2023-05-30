@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - Pokémon GO Card Shop</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>Pokémon GO Card Shop</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="cart.html">Cart</a></li>
+      <li><a href="sign.html">Sign In/Sign Up</a></li>
+    </ul>
+  </nav>
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="product">
+      <img src="card1.png" alt="Pokémon Card 1">
+      <h3>Pokémon Card 1</h3>
+      <p>Description of Pokémon Card 1.</p>
+      <p>Price: $10</p>
+      <button class="add-to-cart-btn" onclick="addToCart('card1', 10)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="card2.png" alt="Pokémon Card 2">
+      <h3>Pokémon Card 2</h3>
+      <p>Description of Pokémon Card 2.</p>
+      <p>Price: $12</p>
+      <button class="add-to-cart-btn" onclick="addToCart('card2', 12)">Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="card3.png" alt="Pokémon Card 3">
+        <h3>Pokémon Card 1</h3>
+        <p>Description of Pokémon Card 3.</p>
+        <p>Price: $10</p>
+        <button class="add-to-cart-btn" onclick="addToCart('card1', 10)">Add to Cart</button>
+      </div>
+  </section>
+  <footer>
+    <p>&copy; 2023 Pokémon GO Card Shop. All rights reserved.</p>
+  </footer>
+
+  <script src="cart.js"></script>
+</body>
+</html>
