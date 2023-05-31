@@ -43,6 +43,7 @@ body {
   }
   
   .errorSpan {
+    display: flex;
     color: red;
     font-size: 14px;
   }

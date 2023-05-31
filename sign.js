@@ -6,9 +6,9 @@ const inputs = document.querySelector("input");
 console.log(inputs);
 const button = document.querySelector("button");
 //console.log(button);
-const form = document.querySelector("form")
+const form = document.querySelector("form");
 const body = document.querySelector("body");
-const span = document.querySelectorALL("span");
+const span = document.querySelectorAll("span");
 function formVerif(e){
     e.preventDefault();
 
