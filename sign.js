@@ -2,7 +2,7 @@ const email = document.querySelector("#email");
 console.log(email);
 const password = document.querySelector(".password");
 //console.log(password);
-const inputs = document.querySelector("input");
+const inputs = document.querySelectorAll("input");
 console.log(inputs);
 const button = document.querySelector("button");
 //console.log(button);
