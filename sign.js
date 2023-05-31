@@ -20,13 +20,3 @@ function formVerif(e){
         }
     });
 }
-form.addEventListener("submit", formVerif);
-function passwordVerif(e){
-    e.preventDefault();
-
-    const val  = e.target.value;
-    if(val.length < 8) {
-        span[3].classList.toggle("errorSpan");
-    }
-}
-    password.addEventListener("change", passwordVerif);
